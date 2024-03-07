@@ -6,8 +6,7 @@ const convertToCelsius = function (degreesInFahrenheit) {
 };
 
 const convertToFahrenheit = function (degreesInCelcius) {
-  result = Math.round(((9 / 5) * degreesInCelcius + 32) * 1e1) / 1e1;
-  return result;
+  return Math.round(((9 / 5) * degreesInCelcius + 32) * 1e1) / 1e1;
 };
 
 // Do not edit below this line
